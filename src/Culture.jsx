@@ -1,10 +1,10 @@
 import React from 'react';
-import {Route, Switch } from 'react-router-dom';
+import Cultures from './Culture.png'
 function Culture()
 {
     return(
         <>
-        <center><img src="Culture.png"/></center>
+        <center><img src={Cultures}/></center>
         </>
     );
 }

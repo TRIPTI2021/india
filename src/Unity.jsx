@@ -1,10 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Unities from './Unity.png';
 function Unity()
 {
     return(
         <>
-        <center><img src="Unity.png"/></center>
+        <center><img src={Unities}/></center>
         </>
     );
 }

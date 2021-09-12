@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import Afters from './After.png';
+import Mini from './mini.png';
+import Cons from './cons.jpg'
 function After()
 {
     return(
         <>
-<center><img src="After.png"/></center><br/>
-<center><img src="mini.png"/></center><br/>
-<center><img src="cons.jpg"/></center><br/>
+<center><img src={Afters}/></center><br/>
+<center><img src={Mini}/></center><br/>
+<center><img src={Cons}/></center><br/>
 
         </>
     );
